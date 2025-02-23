@@ -1,0 +1,20 @@
+{
+"app_title" : "Islami",
+"quraan_icon" : "Quraan",
+"hadeeth_icon" : "Hadeeth",
+"radio_icon" : "Radio",
+"sebha_icon" : "Sebhaa",
+"setting_icon" : "setting",
+"language_setting" : "language",
+"language_english" : "English",
+"language_arabic" : "Arabic",
+"theme" : "Theme",
+"light" : "Light",
+"dark" : "Dark",
+"text_radio" : "Holy Quran Radio",
+"text_sp7a" : "Number of Tasbeehs",
+"text_sp7a_zekr_1" : "Hallelujah and praise",
+"text_sp7a_zekr_2" : "No God except Allah",
+"text_sp7a_zekr_3" : "Thank God"
+}
+

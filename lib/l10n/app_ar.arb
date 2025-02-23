@@ -1,0 +1,20 @@
+{
+"app_title" : "اسلامي",
+"quraan_icon" : "قران",
+"hadeeth_icon" : "حديث",
+"radio_icon" : "راديوا",
+"sebha_icon" : "سبحة",
+"setting_icon" : "الاعدادات",
+"language_setting" : "اللغة",
+"language_english" : "الانجليزية",
+"language_arabic" : "العربية",
+"theme" : "النمط",
+"light" : "مضيئ",
+"dark" : "مظلم",
+"text_radio" : "اذاعة القران الكريم",
+"text_sp7a" : "عدد التسبيحات",
+"text_sp7a_zekr_1" : "سبحان الله وبحمده",
+"text_sp7a_zekr_2" : "لا اله الا الله",
+"text_sp7a_zekr_3" : "الحمدلله"
+}
+
