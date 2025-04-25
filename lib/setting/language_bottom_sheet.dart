@@ -20,7 +20,7 @@ class _Language_bottom_sheetState extends State<Language_bottom_sheet> {
     var provider =Provider.of<AppConfigProvider>(context);
     return Container(
       margin: EdgeInsets.all(13),
-      color: Colors.yellow,
+      color: Colors.black,
       child: Column(
         children: [
           InkWell(
@@ -56,6 +56,6 @@ class _Language_bottom_sheetState extends State<Language_bottom_sheet> {
     ) ;
   }
   Widget getUnSelectedItemWidget(String text){
-    return Text(text,style: Theme.of(context).textTheme.titleLarge,);
+    return Text(text,style: Theme.of(context).textTheme.titleLarge?.copyWith(color: Colors.white),);
   }
 }

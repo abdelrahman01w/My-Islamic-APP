@@ -1,8 +1,6 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart' hide Radio;
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:islamy_application/model/RadioModel.dart';
-import 'package:islamy_application/radio/radio.dart';
 import 'package:islamy_application/widgets/app_colors.dart';
 class RadioItem extends StatefulWidget {
    AudioPlayer player;
