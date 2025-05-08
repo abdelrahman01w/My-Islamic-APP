@@ -52,8 +52,7 @@ class _Home_screenState extends State<Home_screen> {
               },
               currentIndex: selectIndex,
               items : [
-                BottomNavigationBarItem(
-                    icon: Image.asset('assets/images/2x/quran.png'),label: AppLocalizations.of(context)!.quraan_icon)
+                BottomNavigationBarItem(icon: Image.asset('assets/images/2x/quran.png'),label: AppLocalizations.of(context)!.quraan_icon)
                 , BottomNavigationBarItem(icon: Image.asset('assets/images/2x/quran-quran-svgrepo-com.png'),label:AppLocalizations.of(context)!.hadeeth_icon)
                 , BottomNavigationBarItem(icon: Image.asset('assets/images/2x/radio.png'),label:AppLocalizations.of(context)!.radio_icon)
                 , BottomNavigationBarItem(icon: Image.asset('assets/images/2x/sebha.png'),label:AppLocalizations.of(context)!.sebha_icon)

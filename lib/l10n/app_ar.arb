@@ -15,6 +15,13 @@
 "text_sp7a" : "عدد التسبيحات",
 "text_sp7a_zekr_1" : "سبحان الله وبحمده",
 "text_sp7a_zekr_2" : "لا اله الا الله",
-"text_sp7a_zekr_3" : "الحمدلله"
+"text_sp7a_zekr_3" : "الحمدلله",
+"text_sp7a_zekr_4" : "الله وأكبر",
+"text_sp7a_zekr_5" : "اللهم صلي على محمد",
+"warningInCounter" : "تحذير",
+"messageWarningInCounter" : "هل انت متاكد من اعادة عدد التسابيح للصفر؟",
+"cancelCounter":"الغاء",
+"okCounter":"حسنا",
+"returnCounter":"اعادة"
 }
 

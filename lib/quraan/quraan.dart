@@ -53,7 +53,8 @@ class Quraan extends StatelessWidget {
             return InkWell(
               onTap : (){ ///for transfer the text to button
                 Navigator.of(context).pushNamed(Sura_details_screen.routeName
-                    ,arguments: SuraDetailsArgeu(suraName: suraNaes[index], index: index) ///for give sura name and index for sura_details_screen
+                    ,arguments: SuraDetailsArgeu(suraName: suraNaes[index],
+                        index: index) ///for give sura name and index for sura_details_screen
                 );
               },
               child: Text(suraNaes[index],
@@ -62,10 +63,7 @@ class Quraan extends StatelessWidget {
             );
           },
           itemCount: suraNaes.length,
-
         ))
-
-
       ],
     );
   }

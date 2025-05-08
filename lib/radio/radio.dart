@@ -14,7 +14,8 @@ class Radioo extends StatelessWidget {
         return Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Expanded(child: Image.asset('assets/images/551-5517026_radio-vector-png-old-radio-png-vector-transparent.png'))
+            Expanded(child: Image.asset(''
+                'assets/images/551-5517026_radio-vector-png-old-radio-png-vector-transparent.png'))
             ,        Expanded(child: ListView.builder(
               physics: PageScrollPhysics(),
               scrollDirection: Axis.horizontal,
@@ -25,7 +26,7 @@ class Radioo extends StatelessWidget {
           ],
         );
       }else if(snapshot.hasError){
-       return  Center(child: Text("Faild to load Radios"),);
+       return  Center(child: Text("Failed to load Radios"),);
       }else{
         return Center(child: CircularProgressIndicator( ),);
       }
@@ -34,10 +35,11 @@ class Radioo extends StatelessWidget {
    Future<RadioModel?>getRadios()async{
     var url = Uri.parse("https://mp3quran.net/api/v3/radios");
  var response = await http.get(url);
- if(response.statusCode == 200){
-   var json = jsonDecode(response.body);
-   print(response.body);
-   return RadioModel.fromJson(json);
+ if(response.statusCode != 200){
+   print("something went wrong");
  }
+    var json = jsonDecode(response.body);
+    print(response.body);
+    return RadioModel.fromJson(json);
   }
 }

@@ -13,8 +13,15 @@
 "dark" : "Dark",
 "text_radio" : "Holy Quran Radio",
 "text_sp7a" : "Number of Tasbeehs",
-"text_sp7a_zekr_1" : "Hallelujah and praise",
-"text_sp7a_zekr_2" : "No God except Allah",
-"text_sp7a_zekr_3" : "Thank God"
+"text_sp7a_zekr_1" : "Subhan Allah w Bhamdeh",
+"text_sp7a_zekr_2" : "La Ilah Ella Allah",
+"text_sp7a_zekr_3" : "Elhamdullah",
+"text_sp7a_zekr_4" : "Allah w Akbar",
+"text_sp7a_zekr_5" : "Allahumma Salli aala Muhammad",
+"warningInCounter" : "warning",
+"messageWarningInCounter" : "Are you sure you want to reset the counter to zero?",
+"cancelCounter":"Cancel",
+"okCounter":"ok",
+"returnCounter":"return"
 }
 
