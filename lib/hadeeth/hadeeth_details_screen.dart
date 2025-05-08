@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import '../provider/app_config_provider.dart';
 import '../widgets/app_colors.dart';
 import 'hadeeth.dart';
@@ -20,7 +19,6 @@ class _Hadeath_details_screen extends State<Hadeath_details_screen> {
   Widget build(BuildContext context) {
     var args =ModalRoute.of(context)?.settings.arguments as HadiethData ; ///for take the sura name from quraan tob
     var provider=Provider.of<AppConfigProvider>(context);
-
     return Stack(
         children: [
           provider.isDarkMode()?

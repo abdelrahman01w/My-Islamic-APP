@@ -36,6 +36,5 @@ class MyApp extends StatelessWidget {
       darkTheme: MyThemeData.darkMode,
     );
   }
-
 }
  

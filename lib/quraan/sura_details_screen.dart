@@ -55,7 +55,9 @@ class _Sura_details_screenState extends State<Sura_details_screen> {
                   borderRadius: BorderRadius.circular(22)
               ),
               child: ListView.builder(itemBuilder: (context,index){
-                return Item_sura_details(content : verses[index] ,index: index,);
+                return Item_sura_details(
+                  content : verses[index] ,index: index,
+                );
               }, itemCount: verses.length,),
             ),
           ),
